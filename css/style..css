@@ -1,23 +1,58 @@
-/* Palette colori
-azzurro: #09A9ED;
-verde scuro: #2CC6AB;
-verde chiaro: #A3D116;
-viola: #AB5DE6;
-grigio add selection: #D4D9DD;
-ciclamino: #EC4A9D;
-bianco sfondo: #F6F8F9;
-arancione: #FF9B00;
-*/
+:root{
+  --header-color:white;
+  --bg-color:#F6F8F9;
+  --button-color:#D4D9DD;
+  --editorial-color:#09A9ED;
+  --Q1_goals-color:#AB5DE6;
+  --mobile-color:#FF9B00;
+  --website-color:#EC4A9D;
+  --sales-color:#A3D116;
+}
+/*color palette*/
+body{
+  background-color: var(--bg-color);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 header{
   margin: 0 auto;
+  background-color: white;
 }
 span{
   font-size: 2.75em;
   line-height: 2px;
   font-weight: 750;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 img{
   height: 100px;
   vertical-align: middle;
+}
+hr{
+  border-width: 0;  
+}
+/*header*/
+
+main{
+  margin: 0 auto;
+  padding: 2em;
+  background-color: white;
+  display: block;
+  width: 1000px;
+}
+.task{
+  color: white;
+  background-color:var(--editorial-color);
+  border-color: var(--editorial-color);
+  border-style: initial;
+}
+.section{
+  background-color: white;
+  color: var(--button-color);
+  border-color: var(--button-color);
+
+}
+.add{
+  border-style: solid;
+  border-radius: 7px;
 }
